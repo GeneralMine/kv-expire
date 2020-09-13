@@ -2,6 +2,10 @@ module.exports = {
     store: {},
     expiresIn: 1000 * 60 * 10,
 
+    /**
+     * Getting the object value if its still valid
+     * @param {any} key 
+     */
     get(key) {
         const obj = this.store[key];
         
@@ -16,6 +20,10 @@ module.exports = {
         }
     },
 
+    /**
+     * Checks if key is stored, removes it if its invalid
+     * @param {any} key 
+     */
     has(key) {
         const obj = this.store[key];
 
@@ -31,6 +39,11 @@ module.exports = {
         }
     },
 
+    /**
+     * Stores a value under its key with the set default time
+     * @param {any} key 
+     * @param {any} value 
+     */
     set(key, value) {
         this.store[key] = {
             value,
