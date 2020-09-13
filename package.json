@@ -1,0 +1,20 @@
+{
+  "name": "kv-expire",
+  "version": "1.0.0",
+  "description": "An key value store middleware which autodetects expiration",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeneralMine/kv-expire.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GeneralMine/kv-expire/issues"
+  },
+  "homepage": "https://github.com/GeneralMine/kv-expire#readme"
+}
