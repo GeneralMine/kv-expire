@@ -4,6 +4,7 @@ module.exports = {
 
     get(key) {
         const obj = this.store[key];
+        
         if (obj == null) {
             return null;
         }
@@ -14,7 +15,6 @@ module.exports = {
             return null;
         }
     },
-
 
     has(key) {
         const obj = this.store[key];
