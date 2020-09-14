@@ -1,6 +1,6 @@
 module.exports = {
     store: {},
-    expiresIn: 1000 * 60 * 10,
+    expiresIn: 1000 * 60 * 5,
 
     /**
      * Getting the object value if its still valid
@@ -8,7 +8,7 @@ module.exports = {
      */
     get(key) {
         const obj = this.store[key];
-        
+
         if (obj == null) {
             return null;
         }
