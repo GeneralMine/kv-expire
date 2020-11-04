@@ -1,6 +1,6 @@
 {
   "name": "kv-expire",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An key value store middleware which autodetects expiration",
   "main": "src/index.js",
   "scripts": {

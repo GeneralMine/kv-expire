@@ -1,6 +1,6 @@
 module.exports = {
     store: {},
-    expiresIn: 1000 * 60 * 5,
+    expiresIn: 1000 * 60 * 15,
 
     /**
      * Getting the object value if its still valid
